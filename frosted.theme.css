@@ -1,11 +1,10 @@
 /**
  * @name frosted
- * @version 
- * @description A translucent/frosted glass Discord theme
- * @author 
+ * @version 1.0
+ * @description A frosted Discord theme
+ * @author Renaud Fradin
  * 
- * @website 
- * @source 
+ * @website https://portfolio-renaud-fradin.netlify.app/
  */
 
  :root {
@@ -43,7 +42,7 @@
   --reply-lightness: 61.8%;
   --reply-hsl: var(--reply-hue),calc(var(--reply-saturation) * var(--saturation-factor)),var(--reply-lightness);
   --reply-opacity: 1;
-  --notification-color: #fff;
+  --notification-color: #1BD58B;
   --list-item-radius: var(--app-radius);
   --textarea-color: 255,255,255;
   --textarea-alpha: 0.1;
@@ -956,6 +955,7 @@ body {
  */
 .button-f2h6uQ {
   border-radius: var(--button-radius) !important;
+  color: #1BD58B;
 }
 .button-f2h6uQ * {
   text-shadow: none;
