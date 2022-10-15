@@ -104,14 +104,6 @@
   --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-.theme-dark,
-.theme-light {
-  --background-modifier-hover: rgba(255,255,255,0.075);
-  --background-modifier-active: rgba(255,255,255,0.1);
-  --background-modifier-selected: rgba(255,255,255,0.125);
-  --background-modifier-accent: rgba(255,255,255,0.175);
-}
-
 /*
  *
  *  APP ELEMENTS
@@ -316,6 +308,7 @@ body {
 
 .hasCounter.membersWrap-3NUR2t .members-3WRCEx {
   margin-top: 41px !important;
+  background-color: transparent !important;
 }
 
 /*
@@ -373,7 +366,7 @@ body {
 }
 
 .avatarSpeaking-2pCGrZ {
-  box-shadow: inset 0 0 0 2px hsl(var(--accent-hsl)), inset 0 0 0 3px var(--background-secondary);
+  box-shadow: inset 0 0 0 2px hsl(var(--accent-hsl)), inset 0 0 0 3px;
 }
 
 .container-JMJRDf {
@@ -517,7 +510,7 @@ body {
 }
 
 .border-2BJQjd.speaking-3RWJBr {
-  box-shadow: inset 0 0 0 2px hsl(var(--accent-hsl)), inset 0 0 0 3px var(--background-secondary);
+  box-shadow: inset 0 0 0 2px hsl(var(--accent-hsl)), inset 0 0 0 3px;
 }
 
 /*
@@ -529,7 +522,7 @@ body {
   background-color: transparent;
 }
 
-.members-3WRCEx, .members-3WRCEx > div {
+.members-3WRCEx, .members-3WRCEx div {
   background-color: transparent;
 }
 
@@ -3271,7 +3264,7 @@ body {
   z-index: -1;
 }
 .userPopout-2j1gM4.userPopoutThemed-3BZ4by, .userPopout-3fydSP.userPopoutThemed-3BZ4by {
-  --card-color: var(--background-secondary-alt);
+  --card-color: transparent;
 }
 .userPopout-2j1gM4.userPopoutThemed-3BZ4by *, .userPopout-3fydSP.userPopoutThemed-3BZ4by * {
   text-shadow: none;
@@ -3739,7 +3732,7 @@ body {
 
 /* SERVER SETTINGS MEMBERSHIP SCREENING -> PREVIEW */
 .guildSidebar-UHnQqs {
-  background-color: var(--sidebar-color);
+  background-color: transparent;
 }
 
 .modal-2TOYtq .formFieldWrapper-2LV3S6 {
@@ -3925,7 +3918,7 @@ body {
 
 /* SERVER LISTS -> MEMBERS LIST */
 .member-2cj2PI .role-2TIOKu {
-  background-color: var(--background-modifier-active);
+  background-color: transparent;
 }
 
 /*
