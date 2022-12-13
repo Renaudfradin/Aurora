@@ -1,10 +1,10 @@
 /**
- * @name frosted
- * @version 1.0
+ * @name Frosted
+ * @version 1.1
  * @description A frosted Discord theme
  * @author Renaud Fradin
- * 
  * @website https://portfolio-renaud-fradin.netlify.app/
+ * @source https://github.com/Renaudfradin/Themefrost 
  */
 
  :root {
@@ -65,7 +65,7 @@
   --button-action-color: #000;
   --button-text-color: var(--accent-text-color);
   --button-radius: 16px;
-  --switch-slider-color: rgba(114,118,125,0.85);
+  --switch-slider-color: rgba(255,255,255,0.1);
   --switch-knob-color: #222;
   --popout-color: rgba(0,0,0,0.55);
   --popout-blur: 8px;
@@ -750,7 +750,7 @@ body {
   background-color: var(--card-color);
   border: none;
 }
-.container-3YcgdM .button-f2h6uQ:hover,
+.container-3YcgdM,
 .container-3YcgdM .addReactButton-3bSQb6:hover {
   background-color: var(--card-color-hover);
 }
@@ -780,7 +780,7 @@ body {
   --button-radius: 0;
   --button-background: transparent;
 }
-.toolbar-37BrJ5 .button-f2h6uQ:after {
+.toolbar-37BrJ5 {
   --button-action-color: #fff;
 }
 
@@ -950,6 +950,12 @@ body {
   border-radius: var(--button-radius) !important;
   color: #1BD58B;
 }
+
+.button-f2h6uQ:hover,
+.button-f2h6uQ:after{
+  color: #1BD58B;
+}
+
 .button-f2h6uQ * {
   text-shadow: none;
 }
@@ -1345,9 +1351,6 @@ body {
  *  SWITCHES
  *
  */
-.container-2nx-BQ {
-  background-color: var(--switch-slider-color) !important;
-}
 .container-2nx-BQ .slider-32CRPX rect {
   fill: var(--switch-knob-color) !important;
 }
@@ -1355,7 +1358,7 @@ body {
   fill: var(--switch-slider-color) !important;
 }
 [style*="43.9%"].container-2nx-BQ {
-  --switch-slider-color: hsla(var(--accent-hsl),var(--accent-opacity));
+ --notification-color: hsla(var(--accent-hsl),var(--accent-opacity));
 }
 [style*="43.9%"].container-2nx-BQ .slider-32CRPX rect {
   --switch-knob-color: var(--accent-text-color);
@@ -2310,9 +2313,24 @@ body {
   border-radius: var(--card-radius);
   border: none;
 }
+
 .connectedAccountContainer-3aLMHJ:hover {
   background-color: var(--card-color-hover);
   border: none;
+}
+
+.avatarDecoration-34OC0G{
+  position: absolute;
+  z-index: 1;
+  left: calc(-30px - 40px*var(--decoration-to-avatar-ratio)/2);
+  margin-top: calc(-7px - .125rem - 40px*var(--decoration-to-avatar-ratio)/2);
+  width: calc(40px*var(--decoration-to-avatar-ratio));
+  height: calc(40px*var(--decoration-to-avatar-ratio));
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /*
