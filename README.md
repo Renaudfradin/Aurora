@@ -1,5 +1,5 @@
-## FROSTED THEME
+## AURORA THEME
 
-theme discord for beterdiscord
+A aurora theme.
 
 ![alt text](img/imgTheme.png)

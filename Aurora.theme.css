@@ -1,10 +1,10 @@
 /**
- * @name Frosted
- * @version 1.2
- * @description A frosted Discord theme
+ * @name Aurora
+ * @version 1.2.1
+ * @description A aurora Discord theme
  * @author Renaud Fradin
  * @website https://portfolio-renaud-fradin.netlify.app/
- * @source https://github.com/Renaudfradin/Themefrost 
+ * @source https://github.com/Renaudfradin/Theme-Aurora
  */
 
  :root {
@@ -218,6 +218,17 @@ body {
 
 .platform-osx .tree-3agP2X {
   margin-top: Opx;
+}
+
+.wordmarkWindows-2dq6rw{
+  padding-left: 0px;
+}
+
+.wordmarkWindows-2dq6rw svg{
+  color: var(--notification-color) !important;
+  width: 65px;
+  height: 20px;
+  margin-left: 20px;
 }
 
 /*
@@ -4754,6 +4765,10 @@ body {
   background-color: transparent;
 }
 
+.container-1zzFcN{
+  background-color: transparent;
+}
+
 /*
  *
  *  Corections Light theme natif for discord
@@ -4933,3 +4948,65 @@ body {
 .userTagDiscriminatorNoNickname-2HLaIE{
   color: var(--interactive-active);
 }
+
+.card-16VQ8C a{
+  color: var(--notification-color);
+}
+
+.socialLinks-3ywLUf{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.defaultColor-1GKx81,
+.defaultColor-1EVLSt{
+  color: var(--header-secondary);
+}
+
+.title-2pQsrN,
+.description-22Sl9U{
+  color: var(--header-secondary);
+}
+
+.attendeeCTA-2etnq5{
+  color: var(--header-secondary);
+}
+
+.barFill-3RgCsY{
+  color: var(--notification-color);
+  background: var(--notification-color);;
+}
+
+.gameName-zbZetm{
+  color: var(--header-secondary) !important;
+}
+
+.bd-setting-header label,
+.bd-empty-updates{
+  color: var(--header-secondary) !important;
+}
+
+.bd-name{
+  color: var(--header-secondary) !important;
+}
+
+.bd-addon-header .bd-icon{
+  color: var(--notification-color);
+  fill: var(--notification-color);;
+}
+
+.bd-link{
+  color: var(--notification-color);
+}
+
+.container-ZMc96U, .container-ZMc96U *{
+  color: #dfdfdf !important;
+}
+
+.label-2gNW3x,
+.icon-E4cW1l{
+  color: #dfdfdf !important;
+}
+
