@@ -1,10 +1,10 @@
 /**
  * @name Aurora
- * @version 1.2.1
+ * @version 1.2.2
  * @description A aurora Discord theme
  * @author Renaud Fradin
  * @website https://portfolio-renaud-fradin.netlify.app/
- * @source https://github.com/Renaudfradin/Theme-Aurora
+ * @source https://github.com/Renaudfradin/Theme-Aurora 
  */
 
  :root {
@@ -4901,8 +4901,7 @@ body {
 }
 
 .perksTitle-1U7C5-,
-.titleText-rdztw2,
-.text-sm-medium-2-Xzsi, .text-sm-normal-AEQz4v{
+.titleText-rdztw2, .text-sm-normal-AEQz4v{
   color: var(--header-secondary) !important;
 }
 
@@ -5010,3 +5009,89 @@ body {
   color: #dfdfdf !important;
 }
 
+.form-25Aujy .submitButton-3B-dZd div div{
+  color: var(--button-text-color) !important;
+}
+
+.chat-2ZfjoI, 
+.noChannel-1GDIAZ,
+.theme-dark .themed-Hp1KC_,
+.theme-dark .container-2IKOsH, 
+.theme-dark .header-3xB4vB{
+  background-color: transparent !important;
+}
+
+.checkbox-1LuCGM{
+  background-color: var(--notification-color) !important;
+}
+
+.avatar-1HDIsL,
+.iconContainerLeft-2NHJgN{
+  color: var(--notification-color) !important;
+}
+
+.pencilContainer-11Kuga svg{
+  color: var(--notification-color) !important;
+}
+
+.container-ZMc96U, .container-ZMc96U *{
+  color: var(--notification-color) !important;
+}
+
+.titleWrapper-24Kyzc h1{
+  color: #dfdfdf !important;
+}
+
+.item-3mHhwr span{
+  color: #dfdfdf !important;
+}
+
+.sortDropdownText-3smleu{
+  color: var(--accent-text-color) !important;
+}
+
+.title-1_TkpU,
+.text-PdAsFQ,
+.text-xs-bold-9jfMvZ,
+.footerTitle-3Bslxi{
+  color: #dfdfdf !important;
+}
+
+.lookLink-15mFoz div{
+  color: #f04747 !important;
+}
+
+/*
+* Card theme
+*/
+
+#Aurora-card{
+  background: url("https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80") center/cover !important;
+}
+
+.sidebarRegion-1VBisG, 
+.sidebarRegionScroller-FXiQOh{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-box-pack: end;
+  width: auto;
+  justify-content: flex-start;
+}
+
+.sidebarRegion-1VBisG {
+  -ms-flex: 1 0 218px;
+  flex: 0 0 260px;
+  z-index: 1;
+  -ms-flex-pack: end;
+}
+
+.sidebar-nqHbhN {
+  width: 260px;
+  padding: 60px 6px 60px 20px;
+}
+
+.contentRegion-3HkfJJ {
+  flex: 1 1 auto;
+}
