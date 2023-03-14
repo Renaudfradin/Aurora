@@ -2,4 +2,4 @@
 
 A aurora theme.
 
-![alt text](img/themeAurora.png)
+![alt text](assets/img/themeAurora.png)
